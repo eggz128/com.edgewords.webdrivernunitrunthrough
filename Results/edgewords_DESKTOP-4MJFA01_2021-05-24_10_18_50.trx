@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="efa8f521-8bc0-44ca-9e82-15d412807ee4" name="edgewords@DESKTOP-4MJFA01 2021-05-24 10:18:50" runUser="DESKTOP-4MJFA01\edgewords" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-24T10:18:50.5656789+01:00" queuing="2021-05-24T10:18:50.5656801+01:00" start="2021-05-24T10:18:33.1452161+01:00" finish="2021-05-24T10:18:57.8293116+01:00" />
+  <TestSettings name="default" id="e112cdae-340e-4415-8c8c-e980d11b6856">
+    <Deployment runDeploymentRoot="edgewords_DESKTOP-4MJFA01_2021-05-24_10_18_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7ad1b0bf-6667-4a94-acb2-be18a97ffd89" testId="64eeca46-6ca8-5394-21a4-19181963465e" testName="TestMethod" computerName="DESKTOP-4MJFA01" duration="00:00:15.5107160" startTime="2021-05-24T10:18:34.9351753+01:00" endTime="2021-05-24T10:18:50.4456739+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad1b0bf-6667-4a94-acb2-be18a97ffd89">
+      <Output>
+        <StdOut>Hello from TestContext&#xD;
+Reporting using Console&#xD;
+Finished!&#xD;
+Hello from FirstTest via TestContext&#xD;
+&#xD;
+We got this far so we passed</StdOut>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DESKTOP-4MJFA01\my_screenshot.png" />
+        <ResultFile path="DESKTOP-4MJFA01\page.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f75a040-0eec-4a09-b35e-58abb4ced33b" testId="785531e0-178e-f8ed-bdd3-64f83654a2e1" testName="sanity" computerName="DESKTOP-4MJFA01" duration="00:00:07.0912310" startTime="2021-05-24T10:18:50.4582427+01:00" endTime="2021-05-24T10:18:57.5494696+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f75a040-0eec-4a09-b35e-58abb4ced33b">
+      <Output>
+        <StdOut>Hello from SanityTest via TestContext</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="sanity" storage="c:\users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" id="785531e0-178e-f8ed-bdd3-64f83654a2e1">
+      <Execution id="2f75a040-0eec-4a09-b35e-58abb4ced33b" />
+      <TestMethod codeBase="C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest" name="sanity" />
+    </UnitTest>
+    <UnitTest name="TestMethod" storage="c:\users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" id="64eeca46-6ca8-5394-21a4-19181963465e">
+      <Execution id="7ad1b0bf-6667-4a94-acb2-be18a97ffd89" />
+      <TestMethod codeBase="C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivernunitrunthrough.Test_Cases.FirstTest" name="TestMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="64eeca46-6ca8-5394-21a4-19181963465e" executionId="7ad1b0bf-6667-4a94-acb2-be18a97ffd89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="785531e0-178e-f8ed-bdd3-64f83654a2e1" executionId="2f75a040-0eec-4a09-b35e-58abb4ced33b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll&#xD;
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases&#xD;
+Hello from TestContext&#xD;
+Reporting using Console&#xD;
+Finished!&#xD;
+Hello from FirstTest via TestContext&#xD;
+&#xD;
+TestMethod: We got this far so we passed&#xD;
+Hello from SanityTest via TestContext&#xD;
+&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

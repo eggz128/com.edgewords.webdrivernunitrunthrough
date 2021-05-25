@@ -1,0 +1,37 @@
+<test-run id="2" duration="4.181097" testcasecount="2" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:02Z" end-time="2021-05-25T 09:14:08Z">
+  <test-suite type="Assembly" name="com.edgewords.webdrivernunitrunthrough.dll" fullname="C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+    <test-suite type="TestSuite" name="com" fullname="com" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+      <test-suite type="TestSuite" name="edgewords" fullname="com.edgewords" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+        <test-suite type="TestSuite" name="webdrivernunitrunthrough" fullname="com.edgewords.webdrivernunitrunthrough" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+          <test-suite type="TestSuite" name="Test_Cases" fullname="com.edgewords.webdrivernunitrunthrough.Test_Cases" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+            <test-suite type="TestFixture" name="SanityTest" fullname="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest" total="2" passed="2" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:08Z" duration="4.181097">
+              <test-case name="AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" fullname="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest.AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" methodname="AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" classname="SanityTest" result="Passed" start-time="2021-05-25T 09:14:03Z" end-time="2021-05-25T 09:14:06Z" duration="2.067121" asserts="0">
+                <properties>
+                  <property name="Category" value="Params" />
+                </properties>
+                <output><![CDATA[The commandline param was Boo
+bob password1
+http://www.edgewordstraining.co.uk/webdriver2/
+
+Passed
+]]></output>
+              </test-case>
+              <test-case name="AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" fullname="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest.AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" methodname="AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" classname="SanityTest" result="Passed" start-time="2021-05-25T 09:14:06Z" end-time="2021-05-25T 09:14:08Z" duration="2.113976" asserts="0">
+                <properties>
+                  <property name="Category" value="Params" />
+                </properties>
+                <output><![CDATA[The commandline param was Boo
+dave letmein
+http://www.edgewordstraining.co.uk/webdriver2/
+
+Passed
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

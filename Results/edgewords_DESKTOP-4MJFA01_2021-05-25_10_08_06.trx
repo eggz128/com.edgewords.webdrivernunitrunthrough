@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="146e7460-7f0d-446d-a330-7815a5fc8107" name="edgewords@DESKTOP-4MJFA01 2021-05-25 10:08:06" runUser="DESKTOP-4MJFA01\edgewords" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-25T10:08:06.0449820+01:00" queuing="2021-05-25T10:08:06.0450132+01:00" start="2021-05-25T10:08:04.2071729+01:00" finish="2021-05-25T10:08:06.0467765+01:00" />
+  <TestSettings name="default" id="46633a92-3ff1-455a-ab04-53e4db87a986">
+    <Deployment runDeploymentRoot="edgewords_DESKTOP-4MJFA01_2021-05-25_10_08_06" />
+  </TestSettings>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="0" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases&#xD;
+   Skipping assembly - no matching test cases found&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-4MJFA01" outcome="Warning" timestamp="2021-05-25T10:08:05.8057874+01:00">
+        <Text>No test matches the given testcase filter `TestCategory=Params` in C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

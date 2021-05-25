@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e1369d4d-eef3-49a7-9b8b-3d356258ba80" name="edgewords@DESKTOP-4MJFA01 2021-05-25 10:35:43" runUser="DESKTOP-4MJFA01\edgewords" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-25T10:35:43.8666822+01:00" queuing="2021-05-25T10:35:43.8666839+01:00" start="2021-05-25T10:35:39.3091343+01:00" finish="2021-05-25T10:35:45.7806520+01:00" />
+  <TestSettings name="default" id="0cdd3694-e804-426c-aa5a-0d36fe58a47f">
+    <Deployment runDeploymentRoot="edgewords_DESKTOP-4MJFA01_2021-05-25_10_35_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2754cc15-84c7-4599-a183-2d062d90ca6e" testId="2d4b1a73-7b46-3c2d-56a7-607bb0df79ba" testName="AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" computerName="DESKTOP-4MJFA01" duration="00:00:02.1137410" startTime="2021-05-25T10:35:43.4453185+01:00" endTime="2021-05-25T10:35:45.5590525+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2754cc15-84c7-4599-a183-2d062d90ca6e">
+      <Output>
+        <StdOut>The commandline param was FooBar&#xD;
+dave letmein&#xD;
+http://www.edgewordstraining.co.uk/webdriver2/&#xD;
+&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee980d68-5d4f-4eb4-9e13-5542dca7a62a" testId="1e73b2dd-77fd-12a5-9bae-a0a13cd06e84" testName="AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" computerName="DESKTOP-4MJFA01" duration="00:00:02.4290780" startTime="2021-05-25T10:35:41.0112483+01:00" endTime="2021-05-25T10:35:43.4399940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee980d68-5d4f-4eb4-9e13-5542dca7a62a">
+      <Output>
+        <StdOut>The commandline param was FooBar&#xD;
+bob password1&#xD;
+http://www.edgewordstraining.co.uk/webdriver2/&#xD;
+&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" storage="c:\users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" id="1e73b2dd-77fd-12a5-9bae-a0a13cd06e84">
+      <Execution id="ee980d68-5d4f-4eb4-9e13-5542dca7a62a" />
+      <TestMethod codeBase="C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest" name="AnotherTest(&quot;bob&quot;,&quot;password1&quot;)" />
+    </UnitTest>
+    <UnitTest name="AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" storage="c:\users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" id="2d4b1a73-7b46-3c2d-56a7-607bb0df79ba">
+      <Execution id="2754cc15-84c7-4599-a183-2d062d90ca6e" />
+      <TestMethod codeBase="C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivernunitrunthrough.Test_Cases.SanityTest" name="AnotherTest(&quot;dave&quot;,&quot;letmein&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2d4b1a73-7b46-3c2d-56a7-607bb0df79ba" executionId="2754cc15-84c7-4599-a183-2d062d90ca6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e73b2dd-77fd-12a5-9bae-a0a13cd06e84" executionId="ee980d68-5d4f-4eb4-9e13-5542dca7a62a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in C:\Users\edgewords\source\repos\com.edgewords.webdrivernunitrunthrough\bin\Debug\netcoreapp3.1\com.edgewords.webdrivernunitrunthrough.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases&#xD;
+The commandline param was FooBar&#xD;
+bob password1&#xD;
+http://www.edgewordstraining.co.uk/webdriver2/&#xD;
+&#xD;
+AnotherTest("bob","password1"): Passed&#xD;
+The commandline param was FooBar&#xD;
+dave letmein&#xD;
+http://www.edgewordstraining.co.uk/webdriver2/&#xD;
+&#xD;
+AnotherTest("dave","letmein"): Passed&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
