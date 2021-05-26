@@ -69,6 +69,8 @@ namespace com.edgewords.webdrivernunitrunthrough.Test_Cases
             Console.WriteLine("The test environment variable was " + envVar);
 
             //Readded comment
+            //Another comment
+            //And another
 
             Console.WriteLine(param1 + " " + param2);
             Console.WriteLine(GLOBAL_BASE_URL);
